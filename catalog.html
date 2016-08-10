@@ -44,7 +44,8 @@
 
         <h1>Средства для ухода</h1>
 
-        <ul class="breadcrumbs">
+      </div class="breadcrumbs">
+        <ul>
           <li>
             <a href="#">Главная</a>
           </li>
@@ -52,46 +53,74 @@
             <a href="#">Магазин</a>
           </li>
           <li>
-            <a href="#">Средства для ухода</a>
+            <span>Средства для ухода</span>
           </li>
         </ul>
-                <!--Список производителей-->
+      </div>
+                    <!--Сайдбар-->
         <div class="sidebar">
-          <div class="items">
+                    <!--Список производителей-->
+          <form>
             <fieldset>
               <legend>Производители:</legend>
 
-                Baxter of California<input type="checkbox" name="li-1"><br>
-                Mr Natty<input type="checkbox" name="li-2"><br>
-                Suavecito<input type="checkbox" name="li-3"><br>
-                Malin+goetz<input type="checkbox" name="li-4"><br>
-                Murray's<input type="checkbox" name="li-5"><br>
-                American crew<input type="checkbox" name="li-6">
+                <label>
+                  Baxter of California <input type="checkbox" name="li-1">
+                </label><br>
+
+                <label>
+                Mr Natty <input type="checkbox" name="li-2">
+                </label><br>
+
+                <label>
+                Suavecito <input type="checkbox" name="li-3">
+                </label><br>
+
+                <label>
+                Malin+goetz <input type="checkbox" name="li-4">
+                </label><br>
+
+                <label>
+                Murray's <input type="checkbox" name="li-5">
+                </label><br>
+
+                <label>
+                American crew <input type="checkbox" name="li-6">
+                </label>
 
             </fieldset>
-          </div>
+          </form>
                 <!--Список групп товаров-->
-        <div class="items">
-          <fieldset>
-            <legend>Группы товаров:</legend>
+          <form>
+            <fieldset>
+              <legend>Группы товаров:</legend>
 
-              Бритвенные станки<input type="checkbox" name="li_1"><br>
-              Средства для ухода<input type="checkbox" name="li_2"><br>
-              Аксессуары<input type="checkbox" name="li_3">
+                <label>
+                Бритвенные станки<input type="checkbox" name="li_1">
+                </label><br>
 
-          </fieldset>
-        </div>
-      </div>
-            <div class="loock">
+                <label>
+                Средства для ухода<input type="checkbox" name="li_2">
+                </label><br>
+
+                <label>
+                Аксессуары<input type="checkbox" name="li_3">
+                </label>
+
+            </fieldset>
+         </form>
+
+            <div class="reveal-btn">
               <a href="#">
                 <span>Показать</span>
               </a>
             </div>
+        </div>
 
-        <div class="img-content">
+        <div class="block-card">
                 <!--Товар 1-->
-          <div class="features" width="120" height="150">
-            <img src="http://placehold.it/150x100"><br>
+          <div class="card" width="120" height="150">
+            <img src="http://placehold.it/150x100">
             <span>Набор для путешествий <span class="caps">"Baxter of California"</span></span><br>
             <div class="price" width="70" height="30">
               <span class="price-1">2 900 руб.</span>
@@ -102,8 +131,8 @@
           </div>
 
                   <!--Товар 2-->
-          <div class="features" width="120" height="150">
-            <img src="http://placehold.it/150x100"><br>
+          <div class="card" width="120" height="150">
+            <img src="http://placehold.it/150x100">
             <span>Увлажняющий кндиционер<span class="caps">"Baxter of California"</span></span><br>
             <div class="price" width="70" height="30">
               <span class="price-1">750 руб.</span>
@@ -114,8 +143,8 @@
           </div>
 
                     <!--Товар 3-->
-          <div class="features" width="120" height="150">
-            <img src="http://placehold.it/150x100"><br>
+          <div class="card" width="120" height="150">
+            <img src="http://placehold.it/150x100">
             <span>Гель для волос<span class="caps">"Suavecito"</span></span><br>
             <div class="price" width="70" height="30">
               <span class="price-1">290 руб.</span>
@@ -126,8 +155,8 @@
           </div>
 
                     <!--Товар 4-->
-          <div class="features" width="120" height="150">
-            <img src="http://placehold.it/150x100"><br>
+          <div class="card" width="120" height="150">
+            <img src="http://placehold.it/150x100">
             <span>Глина для укладки волос<span class="caps">"American crew"</span></span><br>
             <div class="price" width="70" height="30">
               <span class="price-1">500 руб.</span>
@@ -138,8 +167,8 @@
           </div>
 
                       <!--Товар 5-->
-          <div class="features" width="120" height="150">
-            <img src="http://placehold.it/150x100"><br>
+          <div class="card" width="120" height="150">
+            <img src="http://placehold.it/150x100">
             <span>Гель для влос<span class="caps">"American crew"</span></span><br>
             <div class="price" width="70" height="30">
               <span class="price-1">300 руб.</span>
@@ -150,8 +179,8 @@
           </div>
 
                       <!--Товар 6-->
-          <div class="features" width="120" height="150">
-            <img src="http://placehold.it/150x100"><br>
+          <div class="card" width="120" height="150">
+            <img src="http://placehold.it/150x100">
             <span>Набор для бритья<span class="caps">"Baxter of California"</span></span><br>
             <div class="price" width="70" height="30">
               <span class="price-1">3 900 руб.</span>
@@ -162,8 +191,8 @@
           </div>
 
         </div>
-                        <!--Переключатели страниц-->
-        <div class="radio">
+                        <!--Номера страниц-->
+        <div class="pagination">
           <div class="page">
             <a href="#">1</a>
           </div>
